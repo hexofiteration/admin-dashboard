@@ -4,12 +4,415 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="header"></div>
-      <div class="sidebar"></div>
-      <div class="main"></div>
+      <div class="header">
+        <div class="header-top">
+          <div class="input-group">
+            <img src="./assets/images/magnify.svg" alt="" class="icon" />
+            <input
+              type="search"
+              name="search"
+              id="search"
+              aria-label="search"
+            />
+          </div>
+          <button>
+            <img
+              src="./assets/images/bell-ring-outline.svg"
+              alt=""
+              class="icon notifications"
+            />
+          </button>
+
+          <div class="profile">
+            <a href="#" class="name profile-link"
+              ><div class="image-placeholder profile-picture"></div>
+              Hiden Seeke</a
+            >
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="profile">
+            <a href="#" class="profile-link">
+              <div class="image-placeholder"></div>
+            </a>
+
+            <div class="greeting">
+              <p>Hi there,</p>
+              <h1 class="name">
+                <a href="#" class="profile-link"
+                  >Hiden Seeke <span class="username">(@hidenseeke)</span></a
+                >
+              </h1>
+            </div>
+          </div>
+          <div class="header-actions">
+            <button>new</button>
+            <button>upload</button>
+            <button>share</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <img
+            src="./assets/images/view-dashboard.svg"
+            alt=""
+            class="logo-img"
+          />
+          dashboard
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="#">
+                <img src="./assets/images/home.svg" alt="" class="icon" />
+                home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/images/card-account-details-outline.svg"
+                  alt=""
+                  class="icon"
+                />
+                profile
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./assets/images/message.svg" alt="" class="icon" />
+                messages
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/images/clock-time-three.svg"
+                  alt=""
+                  class="icon"
+                />
+                history
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/images/file-multiple.svg"
+                  alt=""
+                  class="icon"
+                />
+                tasks
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/images/account-group.svg"
+                  alt=""
+                  class="icon"
+                />
+                communities
+              </a>
+            </li>
+          </ul>
+
+          <ul class="nav-links">
+            <li>
+              <a href="#">
+                <img src="./assets/images/cog.svg" alt="" class="icon" />
+                settings
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./assets/images/help-box.svg" alt="" class="icon" />
+                support
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/images/shield-check.svg"
+                  alt=""
+                  class="icon"
+                />
+                privacy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <article>
+          <h2>your projects</h2>
+          <div class="projects">
+            <div class="card">
+              <h3 class="card-heading">super cool project</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                nemo delectus nostrum veritatis quidem vel alias amet.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card-heading">less cool project</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                dolorum aut vitae nisi obcaecati cum, voluptatem expedita libero
+                est dicta quas? Non nemo delectus nostrum veritatis quidem vel
+                alias amet.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card-heading">impossible app</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <h3 class="card-heading">easy peasy app</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                dolorum aut vitae nisi obcaecati cum, nemo delectus nostrum
+                veritatis quidem vel alias amet.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-heading">ad blocker</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                nemo delectus nostrum veritatis quidem vel alias amet.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="card-heading">money maker</h3>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                nemo delectus nostrum veritatis quidem vel alias amet.
+              </p>
+              <div class="card-actions">
+                <button>
+                  <img
+                    src="./assets/images/star-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/eye-plus-outline.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./assets/images/source-branch.svg"
+                    alt=""
+                    class="icon"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <h2>announcements</h2>
+          <div class="announcements">
+            <div class="card">
+              <h4 class="card-heading"></h4>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam architecto molestiae alias aliquam totam obcaecati
+                maxime doloribus! Beatae non quaerat cumque voluptas,
+                accusantium nulla, sint inventore vel repudiandae ad cupiditate?
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card-heading"></h4>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam architecto molestiae alias aliquam totam obcaecati
+                maxime doloribus! Beatae non quaerat cumque voluptas,
+                accusantium nulla, sint inventore vel repudiandae ad cupiditate?
+              </p>
+            </div>
+            <div class="card">
+              <h4 class="card-heading"></h4>
+              <p class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam architecto molestiae alias aliquam totam obcaecati
+                maxime doloribus! Beatae non quaerat cumque voluptas,
+                accusantium nulla, sint inventore vel repudiandae ad cupiditate?
+              </p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <h2>trending</h2>
+          <div class="trending">
+            <ul class="trending-projects">
+              <li>
+                <div class="img-placeholder"></div>
+                <p class="username">
+                  <a href="#" class="profile-link">@tegan</a>
+                </p>
+                <p class="project-title">
+                  <a href="#" class="project-link">world peace builder</a>
+                </p>
+              </li>
+              <li>
+                <div class="img-placeholder"></div>
+                <p class="username">
+                  <a href="#" class="profile-link">@hidenseeke</a>
+                </p>
+                <p class="project-title">
+                  <a href="#" class="project-link">super cool project</a>
+                </p>
+              </li>
+              <li>
+                <div class="img-placeholder"></div>
+                <p class="username">
+                  <a href="#" class="profile-link">@kendall</a>
+                </p>
+                <p class="project-title">
+                  <a href="#" class="project-link">life changing app</a>
+                </p>
+              </li>
+              <li>
+                <div class="img-placeholder"></div>
+                <p class="username">
+                  <a href="#" class="profile-link">@alex</a>
+                </p>
+                <p class="project-title">
+                  <a href="#" class="project-link">no traffic maker</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
     </div>
   </body>
 </html>
