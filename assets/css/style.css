@@ -1,0 +1,25 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --pink-400: hsl(0, 36%, 70%);
+  --red-500: hsl(0, 93%, 68%);
+  --Purple-350: hsl(246, 25%, 77%);
+  --Purple-700: hsl(248, 32%, 49%);
+  --light-grey-4: hsl(0, 0%, 87%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+}
+.header {
+  background-color: var(--white);
+}
+.sidebar {
+  background-color: var(--Purple-700);
+}
+.main {
+  background-color: var(--light-grey-4);
+}
