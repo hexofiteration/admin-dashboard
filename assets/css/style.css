@@ -11,6 +11,12 @@
   margin: 0;
   padding: 0;
 }
+.icon {
+  height: 20px;
+}
+.logo-img {
+  height: 30px;
+}
 .container {
   display: grid;
 }
