@@ -19,12 +19,15 @@
 }
 .container {
   display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 6fr;
 }
 .header {
   background-color: var(--white);
 }
 .sidebar {
   background-color: var(--Purple-700);
+  grid-row: 1/8;
 }
 .main {
   background-color: var(--light-grey-4);
