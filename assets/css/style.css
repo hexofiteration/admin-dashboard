@@ -5,25 +5,77 @@
   --Purple-350: hsl(246, 25%, 77%);
   --Purple-700: hsl(248, 32%, 49%);
   --light-grey-4: hsl(0, 0%, 87%);
+  --grey-900: hsl(213, 19%, 18%);
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
 }
 
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
 .icon {
   height: 20px;
 }
 .logo-img {
   height: 30px;
 }
+
+/* typography **************/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.sidebar a {
+  font-size: 1.25rem;
+}
+
+.sidebar a,
+.header-top .name,
+.header-bottom .greeting p,
+.header-actions button,
+.logo {
+  font-weight: 700;
+}
+.header-actions button,
+.sidebar a,
+.logo,
+h2,
+h3,
+h4,
+.project-title a {
+  text-transform: capitalize;
+}
+.card-body,
+.project-title a {
+  color: var(--grey-900);
+}
+.header-actions button,
+.sidebar a,
+.logo {
+  color: var(--white);
+}
+.sidebar .icon,
+.logo-img {
+  filter: invert(1);
+}
+.announcements .card-body {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* typography ############*/
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
