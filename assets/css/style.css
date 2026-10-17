@@ -24,6 +24,10 @@ body {
 .logo-img {
   height: 30px;
 }
+a,
+button {
+  cursor: pointer;
+}
 
 /* typography **************/
 li {
