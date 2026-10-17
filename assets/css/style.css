@@ -6,6 +6,7 @@
   --Purple-700: hsl(248, 32%, 49%);
   --light-grey-4: hsl(0, 0%, 87%);
   --grey-900: hsl(213, 19%, 18%);
+  --black: hsl(0, 0%, 8%);
 }
 
 * {
@@ -65,6 +66,9 @@ h4,
 .sidebar a,
 .logo {
   color: var(--white);
+}
+.profile-link {
+  color: var(--black);
 }
 .sidebar .icon,
 .logo-img {
