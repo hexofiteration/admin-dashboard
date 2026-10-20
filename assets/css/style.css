@@ -8,6 +8,15 @@
   --grey-900: hsl(213, 19%, 18%);
   --black: hsl(0, 0%, 8%);
 
+  --spacing-xs: 0.25rem;
+  --spacing-s: 0.5rem;
+  --spacing-m: 1rem;
+  --spacing-l: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 2.5rem;
+  --spacing-3xl: 3rem;
+  --spacing-4xl: 3.5rem;
+
   --radius: 1.5rem;
 }
 
@@ -107,9 +116,14 @@ button {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 6fr;
 }
+
+/* header **************/
 .header {
   background-color: var(--white);
+  padding: var(--spacing-m) var(--spacing-3xl);
 }
+/* header #############*/
+
 .sidebar {
   background-color: var(--Purple-700);
   grid-row: 1/8;
