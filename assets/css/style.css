@@ -117,6 +117,9 @@ button {
   grid-template-rows: 1fr 6fr;
 }
 
+.container > div {
+  display: grid;
+}
 /* header **************/
 .header {
   background-color: var(--white);
