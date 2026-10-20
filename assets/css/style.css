@@ -125,6 +125,13 @@ button {
   background-color: var(--white);
   padding: var(--spacing-m) var(--spacing-3xl);
 }
+.header-top {
+  display: grid;
+  grid-template-columns: 4fr 1fr 2fr;
+}
+.header-bottom {
+  display: grid;
+}
 /* header #############*/
 
 .sidebar {
