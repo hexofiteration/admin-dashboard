@@ -18,6 +18,7 @@
   --spacing-4xl: 3.5rem;
 
   --radius: 1.5rem;
+  --radius-1: 50%;
 }
 
 * {
@@ -38,6 +39,18 @@ body {
 a,
 button {
   cursor: pointer;
+}
+.image-placeholder {
+  background-color: var(--pink-400);
+  border-radius: var(--radius-1);
+}
+.image-placeholder {
+  height: 45px;
+  width: 45px;
+}
+.header-bottom .image-placeholder {
+  height: 70px;
+  width: 70px;
 }
 
 /* typography **************/
@@ -129,9 +142,7 @@ button {
   display: grid;
   grid-template-columns: 4fr 1fr 2fr;
 }
-.header-bottom {
-  display: grid;
-}
+
 /* header #############*/
 
 .sidebar {
