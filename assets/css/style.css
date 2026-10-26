@@ -148,6 +148,14 @@ button {
   align-items: center;
 }
 
+.header-bottom {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  align-items: center;
+}
+.header-actions {
+  justify-self: end;
+}
 /* header #############*/
 
 .sidebar {
