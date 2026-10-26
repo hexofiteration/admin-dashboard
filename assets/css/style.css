@@ -133,6 +133,7 @@ button {
 .container > div {
   display: grid;
 }
+
 /* header **************/
 .header {
   background-color: var(--white);
@@ -141,6 +142,7 @@ button {
 .header-top {
   display: grid;
   grid-template-columns: 4fr 1fr 2fr;
+  align-items: center;
 }
 .header .profile {
   display: flex;
@@ -162,6 +164,10 @@ button {
   background-color: var(--Purple-700);
   grid-row: 1/8;
 }
+
+/* main **************/
 .main {
   background-color: var(--light-grey-4);
+  grid-template-columns: 3fr 1fr;
 }
+/* main #############*/
