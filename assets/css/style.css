@@ -154,6 +154,7 @@ button {
   display: grid;
   grid-template-columns: 4fr 3fr;
   align-items: center;
+  margin-top: var(--spacing-l);
 }
 .header-actions {
   justify-self: end;
@@ -167,7 +168,10 @@ button {
 
 /* main **************/
 .main {
+  display: grid;
   background-color: var(--light-grey-4);
   grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
 /* main #############*/
